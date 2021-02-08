@@ -150,5 +150,34 @@ body {
   /* End Header */
 
 }
+.ads{font-family: 'Aref Ruqaa', serif;
+font-size:50;
+text-align:center;
+margin:20%;
+margin-bottom:5%;
+width:500px
+border:1px solid black;
+ text-shadow: 2px 2px grey;
+}
+.fish{ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 2px solid red;
+  border-radius: 50px 20px;
+  }
+  .ads1{margin-top:5%;
+  text-shadow: 2px 2px 5px red;
+  }
 
+.ads1{
+    animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #000;    }
+    49%{    color: #000; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #222;    }
+}
 
