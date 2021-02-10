@@ -155,16 +155,21 @@ font-size:30;
 text-align:center;
 margin:20%;
 margin-bottom:5%;
-width:500px
+width:80px
 border:1px solid black;
  text-shadow: 2px 2px grey;
+ border-radius: 50px 20px;
+ position:relative;
+
 }
 .fish{ display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 30%;
   border: 2px solid red;
   border-radius: 50px 20px;
+
+
   }
   .ads1{margin-top:5%;
   text-shadow: 2px 2px 5px red;
@@ -175,9 +180,9 @@ border:1px solid black;
 }
 @keyframes blinkingText{
     0%{     color: #000;    }
-    49%{    color: #000; }
+    49%{    color: #ebdb34; }
     60%{    color: transparent; }
     99%{    color:transparent;  }
-    100%{   color: #222;    }
+    100%{   color: #ebdb34;    }
 }
 
